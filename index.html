@@ -4,48 +4,61 @@
     <meta charset="UTF-8">
     <title>millchesser.at - Startseite</title>
 </head>
+<link rel = "stylesheet" type="text/css" href="index.css">
 <body>
-<h1>Millchess</h1>
-<nav>
-    <div>
-        <a href="index.html">
-            <img class = "banner" src="Bilder/navpig.jpg">
-        </a>
-    </div>
-    <ul>
-        <li><a href="index.html"><p>Home</p></a></li>
-        <li>
-            <p>Lernen</p>
-            <ul class = "lernen">
-            <li><a href="basics.html"><p>Grundlagen</p></a></li>
-            <li><a href="openings.html"><p>Eröffnungen</p></a></li>
-            <li><a href="tactics.html"><p>Taktik</p></a></li>
-        </ul>
-        </li>
-        <li>
-            <p>Üben</p>
-        <ul class ="ueben">
-            <li><a href="tasks.html"><p>Aufgaben</p></a></li>
-            <li><a href="https://lichess.org/analysis" target = "_blank"><p>Analysebrett</p></a></li>
+<header>
+    <h1>Millchess</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html"><p>Home</p></a></li>
+            <li><a href="#">Lernen</a>
+                <ul>
+                    <li><a href="basics.html"><p>Grundlagen</p></a></li>
+                    <li><a href="openings.html"><p>Eröffnungen</p></a></li>
+                    <li><a href="tactics.html"><p>Taktik</p></a></li>
+                </ul>
+            </li>
+            <li><a href="#">Üben</a>
+                <ul>
+                    <li><a href="tasks.html"><p>Aufgaben</p></a></li>
+                    <li><a href="https://lichess.org/analysis" target = "_blank"><p>Analysebrett</p></a></li>
 
+                </ul>
+            </li>
         </ul>
-        </li>
-    </ul>
-</nav>
+    </nav>
+</header>
+<main>
 <p>Auf der Webseite Millchess finden Sie grundlegende Regeln und Konzepte des Schachspiels.
     Hier werden klare und verständliche Erklärungen sowie Beispiele angeboten, um Spielern dabei zu helfen, ihr Verständnis und ihre Fähigkeiten zu verbessern.
     Vorallem für Anfänger gedacht, können Sie auf der Webseite  Schachspiel verbessern. Besuchen Sie uns und entdecken Sie die Welt des königlichen Spiels!</p>
 
 <ul>
-    <li><a href="basics.html"><h2>Grundlagen</h2><p>Erlernen Sie die Grundlagen des Schachs, einschließlich der Figuren, ihrer Bewegungen und der Schachnotation.</p></a></li>
-    <li><a href="openings.html"><h2>Eröffnungen</h2><p>Eine gute Eröffnung kann den Unterschied ausmachen: Erfahren Sie, wie Sie mit den richtigen Zügen aus der Eröffnung heraus einen Vorteil erlangen können.</p></a></li>
-    <li><a href="tactics.html"><h2>Taktik</h2><p>Von Gabeln bis zu Fesselungen: Lernen Sie die wichtigsten Schachtaktiken kennen, um Ihre Partien zu verbessern und Ihren Gegner unter Druck zu setzen.</p></a></li>
+    <div class = "topcontainer">
+    <div class = "box">
+        <li><a href="basics.html"><h2>Grundlagen</h2><p>Erlernen Sie die Grundlagen des Schachs, einschließlich der Figuren, ihrer Bewegungen und der Schachnotation.</p></a></li>
+    </div>
+    <div class = "box">
+        <li><a href="openings.html"><h2>Eröffnungen</h2><p>Eine gute Eröffnung kann den Unterschied ausmachen: Erfahren Sie, wie Sie mit den richtigen Zügen aus der Eröffnung heraus einen Vorteil erlangen können.</p></a></li>
+    </div>
+    <div class = "box">
+        <li><a href="tactics.html"><h2>Taktik</h2><p>Von Gabeln bis zu Fesselungen: Lernen Sie die wichtigsten Schachtaktiken kennen, um Ihre Partien zu verbessern und Ihren Gegner unter Druck zu setzen.</p></a></li>
+    </div>
+    </div>
 </ul>
 <ul>
-    <li><a href="tasks.html"><h3>Puzzles</h3><p>Verbessern Sie Ihre Schachfähigkeiten mit einer Vielzahl von Aufgaben und Herausforderungen, die Ihnen helfen, Ihr Spiel zu perfektionieren.</p></a></li>
-    <li><a href="https://lichess.org/analysis" target = "_blank"><h3>Analysebrett</h3><p>Nutzen Sie das fortschrittliche Analysebrett von lichess.org, um Ihre Schachpartien zu untersuchen und herauszufinden, wo Sie Verbesserungen vornehmen können.</p></a></li>
-</ul>
 
+    <div class = "bottomcontainer">
+    <div id = "puzzlebutton">
+        <li><a href="tasks.html"><h3>Puzzles</h3><p>Verbessern Sie Ihre Schachfähigkeiten mit einer Vielzahl von Aufgaben und Herausforderungen, die Ihnen helfen, Ihr Spiel zu perfektionieren.</p></a></li>
+    </div>
+    <div id = "analysisbutton">
+        <li><a href="https://lichess.org/analysis" target = "_blank"><h3>Analysebrett</h3><p>Nutzen Sie das fortschrittliche Analysebrett von lichess.org, um Ihre Schachpartien zu untersuchen und herauszufinden, wo Sie Verbesserungen vornehmen können.</p></a></li>
+    </div>
+    </div>
+
+</ul>
+</main>
 <footer>
     <a href="sources.html"><h3>Sources</h3></a>
 </footer>

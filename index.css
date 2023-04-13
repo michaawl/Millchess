@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background: #1F1E11;
+}
+
+/*whole header*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.11);
+}
+
+/*all parent*/
+nav ul{
+    float: right;
+}
+
+/*single parent*/
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+/*links - parent point*/
+nav ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    padding: 28px;
+    display: block;
+}
+
+/*hovering - parent point*/
+nav ul li:hover ul{
+    display: block
+}
+
+/*hovering - parent link*/
+nav ul li a:hover{
+    background-color: yellow;
+}
+
+
+/*all children point*/
+nav ul li ul{
+    display: none;
+    position: relative;
+    background-color: aqua;
+}
+
+
+/*link - children point*/
+nav ul li ul li a{
+    color: blueviolet;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+/*hovering link - children*/
+nav ul li ul li a:hover{
+    color: darksalmon;
+}
