@@ -5,19 +5,50 @@
     list-style: none;
 }
 
-body {
-    background-color: white;
+
+.container{
+    margin-left: 40px;
+    width: 80%;
 }
 
-body.main {
-    background-image: url("Bilder/mainpic.png");
-    background-size: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+img {
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
 }
 
-#maintext{
-    margin: 20px;
+
+
+.caption{
+    display: block;
+    font-size: 30px;
+}
+
+.puzzletext{
+    margin: 20px
+}
+
+#solutions{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: left;
 }
 
 /* NAVBAR STYLE*/
