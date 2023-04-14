@@ -227,9 +227,11 @@ body {
     font-family: Arial, sans-serif;
     font-size: 17px;
 }
-
+a{
+    color : white;
+}
 a:visited {
-    color: white
+    color: white;
 }
 
 /* ##### NAVBAR STYLE *****/
