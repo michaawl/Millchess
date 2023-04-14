@@ -11,6 +11,10 @@ body.mainbackground {
     margin: 40px 80px; /* top botton: 40px, left right: 80px*/
 }
 
+.container{
+    width: 100%;
+}
+
 .row1 {
 
     margin: 20px 80px;
@@ -54,6 +58,7 @@ body.mainbackground {
 
 }
 
+
 /* list elements but only in main part*/
 
 main li {
@@ -96,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #FBFBEF;
     font-family: Arial, sans-serif;
+    font-size: 17px;
 }
 
 a:visited {
