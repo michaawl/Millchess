@@ -1,7 +1,7 @@
 /* ########## CSS STYLE FOR INDEX.HTML ##########*/
 
 body.mainbackground {
-    background-image: url("Bilder/mainpic.png");
+    background-image: url("/media/mainpic.png");
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body.mainbackground {
     margin: 40px 80px; /* top botton: 40px, left right: 80px*/
 }
 
-.container{
+.indexcontainer{
     width: 100%;
 }
 
@@ -61,7 +61,7 @@ body.mainbackground {
 
 /* list elements but only in main part*/
 
-main li {
+.indexmain li {
 
     list-style: none;
     display: flex;
@@ -71,6 +71,128 @@ main li {
     height: 100%;
 }
 
+/* ########## CSS STYLE FOR basics.html, openings.htl and tactics.html */
+
+/* ### FOR OPENINGS AND TACTICS ONLY ### */
+
+#openingintro{
+    margin: 40px 80px;
+}
+
+/*container contains all paragraphs*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*paragraph contains text + imagediv*/
+.paragraph {
+
+    margin-bottom: 40px;
+    width: 80%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+
+}
+
+.text {
+    display: inline-block;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    max-width: 70%;
+}
+
+.imagediv {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    max-width: 200px;
+}
+
+.basicsmain img, .openingsmain img, .tacticsmain img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+/* ########## CSS SHEET FOR puzzles.html ########## */
+
+.puzzlecontainer{
+    margin-left: 40px;
+    width: 90%;
+}
+
+.puzzlerow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+.puzzlecolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.puzzlesmain img {
+    max-width: 60%;
+    max-height: 60%;
+    height: auto;
+    width: auto;
+}
+
+
+.puzzlecaption{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+.puzzletext{
+    margin: 40px 80px;
+}
+
+#solutions{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* ########## CSS STYLE FOR sources.html ########## */
+
+
+.sourcebox {
+    margin: 20px;
+    width : 80%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.sourcesfooter {
+    background: #181407;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
 
 /* ########## FOLLOWING CSS CODE IS THE SAME IN ALL SCRIPTS ########## */
 
